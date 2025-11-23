@@ -1,4 +1,5 @@
 class BasePage:
+    # Base page class of all pages where to write all common used methods
     def __init__(self, page):
         self.page = page
 

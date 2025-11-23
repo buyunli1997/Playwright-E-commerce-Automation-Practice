@@ -5,6 +5,10 @@ import subprocess
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 
+
+pytest_plugins = "tests.common_steps"
+
+
 def pytest_addoption(parser):
     parser.addoption(
         "--browser", action="store", default="chromium",
@@ -46,13 +50,13 @@ def page(browser):
     page.close()
 
 
-# ---------- Store timestamp for later ----------
+# Store timestamp for the report folder
 def pytest_configure(config):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     config._allure_timestamp = timestamp
 
 
-# ---------- Screenshot on failure ----------
+# Take a screenshot on failure
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
@@ -89,7 +93,7 @@ def pytest_runtest_makereport(item, call):
             pass
 
 
-# ---------- Generate timestamped report at end ----------
+# Generate timestamped report at end
 def pytest_sessionfinish(session, exitstatus):
     timestamp = getattr(session.config, "_allure_timestamp", None)
 
