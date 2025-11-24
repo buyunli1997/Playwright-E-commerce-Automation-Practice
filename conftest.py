@@ -5,8 +5,8 @@ import subprocess
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 
-# --- Global import for Allure hooks (for robustness) ---
-# Import allure once to ensure stable access for all hooks and robust reporting.
+# Global import for Allure hooks (for robustness)
+# Import allure once to ensure stable access for all hooks and robust reporting
 try:
     import allure
 
@@ -14,7 +14,7 @@ try:
 except ImportError:
     HAS_ALLURE = False
 
-# --- ULTIMATE FIX: Force Pytest to discover and load BDD step module ---
+# Force Pytest to discover and load BDD step module
 pytest_plugins = "tests.common_steps"
 
 
@@ -25,7 +25,7 @@ def pytest_addoption(parser):
     )
 
 
-# --- CRITICAL FIX: Clean up the old Allure results directory at session start ---
+# Clean up the old Allure results directory at session start
 def pytest_sessionstart(session):
     """Cleans up the allure-results directory before the test session starts."""
     base_results = os.path.join("reports", "allure-results")
@@ -42,10 +42,7 @@ def pytest_sessionstart(session):
     os.makedirs(base_results, exist_ok=True)
 
 
-# -------------------------------------------------------------
-
-
-# ---------- Playwright Fixtures ----------
+# Playwright Fixtures
 @pytest.fixture(scope="session")
 def browser(request):
     browser_name = request.config.getoption("--browser")
@@ -72,20 +69,19 @@ def browser(request):
 @pytest.fixture()
 def page(browser):
     page = browser.new_page()
-    # Navigate to the website automatically to ensure a smooth test start
     page.goto("https://www.saucedemo.com/")
     yield page
     page.close()
 
 
-# ---------- Store timestamp for later (Allure configuration) ----------
+# Store timestamp for later (Allure configuration)
 def pytest_configure(config):
     # Store timestamp for the report folder
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     config._allure_timestamp = timestamp
 
 
-# ---------- Screenshot on failure ----------
+# Screenshot on failure
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
@@ -121,14 +117,14 @@ def pytest_runtest_makereport(item, call):
             )
 
 
-# ---------- Generate timestamped report at end ----------
+# Generate timestamped report at end
 def pytest_sessionfinish(session, exitstatus):
     timestamp = getattr(session.config, "_allure_timestamp", None)
 
     # Default pytest output folder (this already has JSON files)
     base_results = os.path.join("reports", "allure-results")
 
-    # --- CRITICAL CHECK: Verify JSON result files exist ---
+    # Verify JSON result files exist
     # Must first confirm the directory exists
     if not os.path.exists(base_results):
         print("No allure-results folder found. Nothing to report.")
@@ -144,7 +140,6 @@ def pytest_sessionfinish(session, exitstatus):
         return
 
     print(f"Found {len(json_files)} Allure result files to process.")
-    # -------------------------------------------------------------
 
     # Make a timestamped copy to preserve history
     archive_results = os.path.join(
