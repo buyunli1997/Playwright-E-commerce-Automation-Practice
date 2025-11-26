@@ -1,5 +1,8 @@
 Feature: Checkout and purchase flow
 
+  @smoke
+  @critical
+  @regression
   Scenario: Successful purchase of two items
     Given I am logged in
     When I add two different products to the cart

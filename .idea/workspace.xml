@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67db04b1-d971-4b64-bd49-b28b6709cb2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/features/checkout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/checkout_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_checkout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/playwright-sauce-automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/playwright-sauce-automation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/products_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/products_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/cart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/checkout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/products_sort.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/products_sort.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_checkout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_products.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/base_page.py">
+        <entry file="file://$PROJECT_DIR$/features/products_sort.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="4" selection-end-line="7" selection-end-column="71" />
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -33,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
+            <state relative-caret-position="1495">
               <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -42,11 +47,38 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytest.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/cart.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_products.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="189">
+              <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="23" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -57,47 +89,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/checkout.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_checkout.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="174">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/checkout_page.py">
+        <entry file="file://$PROJECT_DIR$/tests/test_checkout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytest.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cart_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="240">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,29 +149,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/reports/report_2025-11-20_21-49-38.html" />
         <option value="$PROJECT_DIR$/run_tests.py" />
         <option value="$PROJECT_DIR$/pytest.ini.py" />
         <option value="$PROJECT_DIR$/pages/base_page.py" />
         <option value="$PROJECT_DIR$/pages/login_page.py" />
         <option value="$PROJECT_DIR$/tests/common_steps.py" />
-        <option value="$PROJECT_DIR$/tests/test_login.py" />
-        <option value="$PROJECT_DIR$/features/login.feature" />
         <option value="$PROJECT_DIR$/features/products.feature" />
-        <option value="$PROJECT_DIR$/tests/test_products.py" />
-        <option value="$PROJECT_DIR$/features/products_sort.feature" />
         <option value="$PROJECT_DIR$/pages/cart_page.py" />
         <option value="$PROJECT_DIR$/reports/allure-results/executor.json" />
         <option value="$PROJECT_DIR$/environment.properties" />
-        <option value="$PROJECT_DIR$/features/cart.feature" />
-        <option value="$PROJECT_DIR$/tests/test_cart.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/features/checkout.feature" />
         <option value="$PROJECT_DIR$/pages/products_page.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/tests/test_checkout.py" />
         <option value="$PROJECT_DIR$/pages/checkout_page.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/tests/test_login.py" />
+        <option value="$PROJECT_DIR$/tests/test_products.py" />
+        <option value="$PROJECT_DIR$/tests/test_checkout.py" />
+        <option value="$PROJECT_DIR$/tests/test_cart.py" />
+        <option value="$PROJECT_DIR$/features/checkout.feature" />
+        <option value="$PROJECT_DIR$/features/cart.feature" />
+        <option value="$PROJECT_DIR$/features/login.feature" />
+        <option value="$PROJECT_DIR$/features/products_sort.feature" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -176,21 +202,6 @@
             </path>
             <path>
               <item name="playwright-sauce-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="playwright-sauce-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="playwright-sauce-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="playwright-sauce-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="playwright-sauce-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="playwright-sauce-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="playwright-sauce-automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -201,7 +212,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -282,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764018223408</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Feature: Checkout and purchase flow&#10;&#10;  Scenario: Successful purchase of two items&#10;    Given I am logged in&#10;    When I add two different products to the cart&#10;    And I navigate to the cart page&#10;    And I click the &quot;Checkout&quot; button&#10;    And I fill out the shipping information with &quot;John&quot;, &quot;Doe&quot; and &quot;90210&quot;&#10;    And I click the &quot;Continue&quot; button&#10;    Then the subtotal price should be calculated correctly&#10;    And the total price should be calculated correctly&#10;    When I click the &quot;Finish&quot; button&#10;    Then I should see the checkout complete message &quot;Thank you for your order!&quot;&#10;    &#10;    &#10;    &#10;    Add a new scenario">
+      <created>1764126795042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764126795042</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -298,7 +316,7 @@
       <window_info anchor="bottom" id="Structure" order="6" weight="0.24913494" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32871974" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.19723183" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.065743946" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32871974" />
       <window_info anchor="bottom" id="Favorites" order="12" weight="0.32871974" />
@@ -331,7 +349,8 @@
     <MESSAGE value="&#10;Make Gherkin more clear" />
     <MESSAGE value="Add 4 test cases:&#10;1. Sort by name: A-Z&#10;2. Sort by name: Z-A&#10;3. Sort by price: low - high&#10;4. Sort by price: high - low" />
     <MESSAGE value="Scenario: Verify products can be added and removed from the cart&#10;&#10;    Given I am logged in&#10;    When I add the first product to the cart&#10;    Then the first product is added to the cart&#10;    When I remove the first product from the cart&#10;    Then the cart becomes empty&#10;    &#10;    &#10;Change this scenario to test both adding and removing an item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scenario: Verify products can be added and removed from the cart&#10;&#10;    Given I am logged in&#10;    When I add the first product to the cart&#10;    Then the first product is added to the cart&#10;    When I remove the first product from the cart&#10;    Then the cart becomes empty&#10;    &#10;    &#10;Change this scenario to test both adding and removing an item" />
+    <MESSAGE value="Feature: Checkout and purchase flow&#10;&#10;  Scenario: Successful purchase of two items&#10;    Given I am logged in&#10;    When I add two different products to the cart&#10;    And I navigate to the cart page&#10;    And I click the &quot;Checkout&quot; button&#10;    And I fill out the shipping information with &quot;John&quot;, &quot;Doe&quot; and &quot;90210&quot;&#10;    And I click the &quot;Continue&quot; button&#10;    Then the subtotal price should be calculated correctly&#10;    And the total price should be calculated correctly&#10;    When I click the &quot;Finish&quot; button&#10;    Then I should see the checkout complete message &quot;Thank you for your order!&quot;&#10;    &#10;    &#10;    &#10;    Add a new scenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: Checkout and purchase flow&#10;&#10;  Scenario: Successful purchase of two items&#10;    Given I am logged in&#10;    When I add two different products to the cart&#10;    And I navigate to the cart page&#10;    And I click the &quot;Checkout&quot; button&#10;    And I fill out the shipping information with &quot;John&quot;, &quot;Doe&quot; and &quot;90210&quot;&#10;    And I click the &quot;Continue&quot; button&#10;    Then the subtotal price should be calculated correctly&#10;    And the total price should be calculated correctly&#10;    When I click the &quot;Finish&quot; button&#10;    Then I should see the checkout complete message &quot;Thank you for your order!&quot;&#10;    &#10;    &#10;    &#10;    Add a new scenario" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/report.html" />
@@ -351,40 +370,12 @@
     <entry file="file://$PROJECT_DIR$/reports/allure-results/screenshots/test_add_to_cart_2025-11-23_16-42-53.png" />
     <entry file="file://$PROJECT_DIR$/reports/allure-results/screenshots/test_add_to_cart_2025-11-23_17-24-10.png" />
     <entry file="file://$PROJECT_DIR$/features/products.feature" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/allure-report-2025-11-23_22-13-58/index.html" />
     <entry file="file://$PROJECT_DIR$/reports/allure-results/executor.json" />
     <entry file="file://$PROJECT_DIR$/environment.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/cart.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="24" lean-forward="true" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="10" column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/products_sort.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="19" column="23" selection-end-line="19" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -401,26 +392,6 @@
           <caret line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" selection-end-line="48" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_cart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -442,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/products_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
@@ -456,9 +420,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/checkout_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_checkout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_products.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/cart.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/checkout.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/products_sort.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
+        <state relative-caret-position="1495">
           <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -466,37 +505,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_products.py">
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/checkout.feature">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/checkout_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_checkout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>

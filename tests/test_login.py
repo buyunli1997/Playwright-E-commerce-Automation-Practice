@@ -1,8 +1,13 @@
+import pytest
 from pytest_bdd import scenario, given, parsers, when, then
 from pages.login_page import LoginPage
 from pages.products_page import ProductsPage
 
 
+@pytest.mark.smoke
+@pytest.mark.data_driven
+@pytest.mark.critical
+@pytest.mark.regression
 @scenario('../features/login.feature', 'Valid user can login successfully')
 def test_valid_login(page):
     pass
@@ -13,6 +18,9 @@ def test_valid_login(page):
     # products_page.assert_on_products_page()
 
 
+@pytest.mark.smoke
+@pytest.mark.critical
+@pytest.mark.regression
 @scenario('../features/login.feature', 'Invalid user sees error message')
 def test_invalid_login(page):
     pass

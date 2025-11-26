@@ -5,21 +5,25 @@ from pages.products_page import ProductsPage
 from tests import common_steps
 
 
+@pytest.mark.regression
 @scenario('../features/products_sort.feature', 'Sort products by price from Low to High')
 def test_sort_price_low_to_high():
     pass
 
 
+@pytest.mark.regression
 @scenario('../features/products_sort.feature', 'Sort products by price from High to Low')
 def test_sort_price_high_to_low():
     pass
 
 
+@pytest.mark.regression
 @scenario('../features/products_sort.feature', 'Sort products by name from Z to A')
 def test_sort_name_z_to_a():
     pass
 
 
+@pytest.mark.regression
 @scenario('../features/products_sort.feature', 'Sort products by name from A to Z')
 def test_sort_name_a_to_z():
     pass

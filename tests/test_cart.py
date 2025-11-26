@@ -1,9 +1,13 @@
+import pytest
 from pytest_bdd import scenario, when, then
 from pages.cart_page import CartPage
 from pages.products_page import ProductsPage
 from tests import common_steps
 
 
+@pytest.mark.smoke
+@pytest.mark.critical
+@pytest.mark.regression
 @scenario('../features/cart.feature', 'Verify products can be added and removed from the cart')
 def test_add_to_and_remove_from_cart(page):
     # Actions are defined in the following functions

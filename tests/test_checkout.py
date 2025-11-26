@@ -1,3 +1,4 @@
+import pytest
 from pytest_bdd import scenario, when, then, parsers
 from pages.products_page import ProductsPage
 from pages.cart_page import CartPage
@@ -5,6 +6,9 @@ from pages.checkout_page import CheckoutPage
 from tests import common_steps
 
 
+@pytest.mark.smoke
+@pytest.mark.critical
+@pytest.mark.regression
 @scenario('../features/checkout.feature', 'Successful purchase of two items')
 def test_successful_checkout(page):
     pass

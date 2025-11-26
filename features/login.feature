@@ -1,5 +1,9 @@
 Feature: Login authentication
 
+  @smoke
+  @data_driven
+  @critical
+  @regression
   Scenario Outline: Valid user can login successfully
     Given I open the login page
     When I login with "<username>" and "<password>"
@@ -10,7 +14,9 @@ Feature: Login authentication
   | problem_user             | secret_sauce    |
   | performance_glitch_user  | secret_sauce    |
 
-
+  @smoke
+  @critical
+  @regression
   Scenario: Invalid user sees error message
     Given I open the login page
     When I login with "wrong_user" and "wrong_pass"
