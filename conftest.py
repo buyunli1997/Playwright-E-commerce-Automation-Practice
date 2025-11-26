@@ -69,7 +69,7 @@ def browser(request):
 @pytest.fixture()
 def page(browser):
     page = browser.new_page()
-    page.goto("https://www.saucedemo.com/")
+    page.goto("https://www.saucedemo.com")
     yield page
     page.close()
 

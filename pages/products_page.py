@@ -42,6 +42,10 @@ class ProductsPage(BasePage):
     def add_first_item_to_cart(self):
         self.page.locator(self.ADD_TO_CART_BTN).first.click()
 
+    # Add the second item to the cart
+    def add_second_item_to_cart(self):
+        self.page.click(self.SECOND_PRODUCT_ADD_BTN)
+
     # Remove the first product from the cart
     def remove_first_item_from_list(self):
         self.page.locator(self.FIRST_PRODUCT_BUTTON).click()

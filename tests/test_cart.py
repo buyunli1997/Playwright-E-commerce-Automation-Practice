@@ -31,7 +31,6 @@ def remove_first_item(page):
     cart_page = CartPage(page)
     cart_page.open_cart()
     cart_page.delete_first_item_from_cart()
-    cart_page.page.wait_for_timeout(3000)
 
 
 @then('the cart becomes empty')
